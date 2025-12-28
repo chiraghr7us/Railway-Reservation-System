@@ -4,10 +4,10 @@
 A full-featured desktop database application designed to manage railway bookings, cancellations, and passenger data. [cite_start]Built using **Python (Tkinter)** for the GUI and **SQLite** for the backend, this project demonstrates full CRUD capabilities and relational database management [cite: 192-195].
 
 ## Key Features
-- [cite_start]**Interactive GUI:** Developed a user-friendly interface with 6 distinct query modules using `Tkinter` and `Treeview` widgets for structured data visualization[cite: 243, 282].
-- [cite_start]**Automated Waitlist Logic:** Implemented a smart cancellation algorithm that automatically promotes passengers from "WaitList" to "Booked" status upon ticket cancellation to maximize seat occupancy [cite: 412-421].
-- [cite_start]**Complex SQL Querying:** Utilized advanced SQL queries involving `INNER JOINs` across 4 normalized tables (Passenger, Booked, Train, TrainStatus) to generate detailed passenger manifests and status reports [cite: 34-36, 314-319].
-- [cite_start]**Data Integrity:** Implemented ACID-compliant transaction management (using `commit` and `rollback` protocols) to ensure database consistency during multi-step updates[cite: 338, 398].
+- **Interactive GUI:** Developed a user-friendly interface with 6 distinct query modules using `Tkinter` and `Treeview` widgets for structured data visualization[cite: 243, 282].
+- **Automated Waitlist Logic:** Implemented a smart cancellation algorithm that automatically promotes passengers from "WaitList" to "Booked" status upon ticket cancellation to maximize seat occupancy [cite: 412-421].
+- **Complex SQL Querying:** Utilized advanced SQL queries involving `INNER JOINs` across 4 normalized tables (Passenger, Booked, Train, TrainStatus) to generate detailed passenger manifests and status reports [cite: 34-36, 314-319].
+- **Data Integrity:** Implemented ACID-compliant transaction management (using `commit` and `rollback` protocols) to ensure database consistency during multi-step updates[cite: 338, 398].
 
 ## Tech Stack
 - **Language:** Python 3
