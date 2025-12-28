@@ -1,13 +1,13 @@
 # Railway Reservation System
 
 ## Overview
-A full-featured desktop database application designed to manage railway bookings, cancellations, and passenger data. [cite_start]Built using **Python (Tkinter)** for the GUI and **SQLite** for the backend, this project demonstrates full CRUD capabilities and relational database management [cite: 192-195].
+A full-featured desktop database application designed to manage railway bookings, cancellations, and passenger data.Built using **Python (Tkinter)** for the GUI and **SQLite** for the backend, this project demonstrates full CRUD capabilities and relational database management.
 
 ## Key Features
-- **Interactive GUI:** Developed a user-friendly interface with 6 distinct query modules using `Tkinter` and `Treeview` widgets for structured data visualization[cite: 243, 282].
-- **Automated Waitlist Logic:** Implemented a smart cancellation algorithm that automatically promotes passengers from "WaitList" to "Booked" status upon ticket cancellation to maximize seat occupancy [cite: 412-421].
-- **Complex SQL Querying:** Utilized advanced SQL queries involving `INNER JOINs` across 4 normalized tables (Passenger, Booked, Train, TrainStatus) to generate detailed passenger manifests and status reports [cite: 34-36, 314-319].
-- **Data Integrity:** Implemented ACID-compliant transaction management (using `commit` and `rollback` protocols) to ensure database consistency during multi-step updates[cite: 338, 398].
+- **Interactive GUI:** Developed a user-friendly interface with 6 distinct query modules using `Tkinter` and `Treeview` widgets for structured data visualization.
+- **Automated Waitlist Logic:** Implemented a smart cancellation algorithm that automatically promotes passengers from "WaitList" to "Booked" status upon ticket cancellation to maximize seat occupancy.
+- **Complex SQL Querying:** Utilized advanced SQL queries involving `INNER JOINs` across 4 normalized tables (Passenger, Booked, Train, TrainStatus) to generate detailed passenger manifests and status reports.
+- **Data Integrity:** Implemented transaction management (using `commit` and `rollback` protocols) to ensure database consistency during multi-step updates.
 
 ## Tech Stack
 - **Language:** Python 3
